@@ -1,19 +1,12 @@
 import localFont from 'next/font/local'
-import {Saira, Lato} from 'next/font/google'
+import { Saira, Lato } from 'next/font/google'
+
+export const neoSansBold = localFont({
+  src: '../../fonts/neo_sans_bold.otf',
+})
 
 export const neoSans = localFont({
-  src: [
-    {
-      path: '../../public/fonts/neo-sans-bold.otf',
-      weight: '700',
-      style: 'normal',
-    },
-    {
-      path: '../../public/fonts/neo-sans-bold.otf',
-      weight: '400',
-      style: 'normal',
-    }
-  ]
+  src: '../../fonts/neo_sans_regular.otf',
 })
 
 export const lato = Lato({
