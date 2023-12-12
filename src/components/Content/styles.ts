@@ -6,7 +6,7 @@ export const ContentContainer = styled.div`
   display: flex;
   justify-content: start;
 
-  h4 {
+  h3 {
     font-size: 18px;
     line-height: 22px;
   }
@@ -26,7 +26,7 @@ export const Aside = styled.aside`
 export const Form = styled.form`
   width: 100%;
 
-  h4 {
+  h3 {
     font-weight: 700;
     color: var(--color-dark-gray);
     margin-bottom: 16px;
@@ -54,7 +54,7 @@ export const InputContainer = styled.div`
 export const Main = styled.main`
   margin-left: 32px;
 
-  h4 {
+  h3 {
     font-weight: 400;
     color: var(--color-black-2);
     margin-bottom: 32px;
