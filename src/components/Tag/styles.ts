@@ -4,7 +4,7 @@ import styled from 'styled-components'
 export const TagContainer = styled.div`
   background-color: var(--color-tavel-default);
   color: var(--color-white);
-  padding: 4px 4px;
+  padding: 2px 4px;
   font-size: 10px;
   line-height: 12px;
   text-align: center;

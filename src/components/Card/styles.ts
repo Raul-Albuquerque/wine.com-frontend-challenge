@@ -47,3 +47,32 @@ export const DiscountContainer = styled.div`
     text-decoration: line-through;
   }
 `
+export const MemberPrice = styled.p`
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--color-black);
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 4px;
+
+  span {
+    font-size: 24px;
+    color: var(--color-tannat);
+    font-weight: 700;
+    margin-left: 6px;
+
+    small {
+      font-size: 12px;
+    }
+  }
+`
+
+export const NormalPrice = styled.p`
+  font-size: 12px;
+  line-height: 14px;
+  color: var(--color-gray-light);
+  text-align: center;
+  font-weight: 700;
+  margin-top: 4px;
+  text-transform: uppercase;
+`
