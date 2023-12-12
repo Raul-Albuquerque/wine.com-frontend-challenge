@@ -7,6 +7,7 @@ export const CardContainer = styled.article`
 export const InfoContainer = styled.div`
   background-color: var(--color-white);
   padding: 10px 10px 20px 10px;
+  margin-bottom: 16px;
 
   div {
     position: relative;

@@ -1,13 +1,14 @@
 import { lato } from '@/assets/fonts'
 import { Tag } from '../Tag'
 import * as S from './styles'
+import Button from '../Button'
 
 export default function Card() {
   return (
     <S.CardContainer>
       <S.InfoContainer className={lato.className}>
         <div>
-          <img src="/images/product.png" />
+          <img src="/images/product.png" alt="imagem vinho" />
           <S.Label src="/images/label.png" />
         </div>
         <S.ProductName>
@@ -27,7 +28,7 @@ export default function Card() {
           Não sócio <span>R$ 37,40</span>
         </S.NormalPrice>
       </S.InfoContainer>
-      <button>Adicionar</button>
+      <Button>Adicionar</Button>
     </S.CardContainer>
   )
 }
