@@ -1,5 +1,20 @@
 :root {
-  --border-radius: 12px;
+  --border-radius: 4px;
+  --color-body-bg: '#F5F5F5';
+  --color-header-bg: '#ffffff';
+  --color-success-default: '#7EBC43';
+  --color-tavel-default: '#F79552';
+  --color-light-chardonnay: '#4FBFA5';
+  --color-light-tannat: '#D14B8F';
+  --color-tannat-default: '#C81A78';
+  --color-tannat: '#B6116E';
+  --color-black-2: '#262626';
+  --color-full-black: '#000000';
+  --color-black: '#1D1D1B';
+  --color-gray-default: '#555555';
+  --color-dark-gray: '#333333';
+  --color-gray-darker: '#111111';
+  --color-gray-light: '#888888';
 }
 
 * {
