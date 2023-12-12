@@ -1,5 +1,10 @@
-import Header from '@/components/Header'
+
+import Main from '@/components/Content'
 
 export default function Home() {
-  return <Header />
+  return (
+    <>
+      <Main />
+    </>
+  )
 }

@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { neoSans } from '@/assets/fonts'
 import './globals.css'
+import Header from '@/components/Header'
 
 export const metadata: Metadata = {
   title: 'Wine - O maior clube de vinhos do mundo',
@@ -14,7 +15,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-br">
-      <body className={neoSans.className}>{children}</body>
+      <body className={neoSans.className}>
+        <Header />
+        {children}
+      </body>
     </html>
   )
 }
