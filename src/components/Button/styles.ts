@@ -15,3 +15,14 @@ export const Btn = styled.button`
   border-radius: var(--border-radius);
   cursor: pointer;
 `
+export const CartBtn = styled.button`
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  background-color: var(--color-success-default);
+  padding: 18px 44px;
+  color: var(--color-white);
+  border: none;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+`
