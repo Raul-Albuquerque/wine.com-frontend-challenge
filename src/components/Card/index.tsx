@@ -28,7 +28,7 @@ export default function Card() {
           Não sócio <span>R$ 37,40</span>
         </S.NormalPrice>
       </S.InfoContainer>
-      <Button>Adicionar</Button>
+      <Button layout="button">Adicionar</Button>
     </S.CardContainer>
   )
 }
