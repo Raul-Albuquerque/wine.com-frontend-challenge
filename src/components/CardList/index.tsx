@@ -1,9 +1,18 @@
+import { Container } from './styles'
 import Card from '../Card'
 
 export default function CardList() {
   return (
-    <section>
+    <Container>
       <Card />
-    </section>
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+    </Container>
   )
 }
