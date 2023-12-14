@@ -15,7 +15,9 @@ export default function Header() {
           <nav>
             <ul className={neoSans.className}>
               <S.PageNav href={'/'}>Clube</S.PageNav>
-              <S.PageNav href={'/'}>Loja</S.PageNav>
+              <S.PageNav className="active" href={'/'}>
+                Loja
+              </S.PageNav>
               <S.PageNav href={'/'}>Produtores</S.PageNav>
               <S.PageNav href={'/'}>Ofertas</S.PageNav>
               <S.PageNav href={'/'}>Eventos</S.PageNav>

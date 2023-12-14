@@ -29,6 +29,11 @@ export const PageNav = styled(Link)`
   font-weight: 400;
   line-height: 24px;
   text-decoration: none;
+
+  &.active {
+    border-bottom: 2px solid var(--color-light-tannat);
+    color: var(--color-light-tannat);
+  }
 `
 
 export const CartItem = styled(Link)`
